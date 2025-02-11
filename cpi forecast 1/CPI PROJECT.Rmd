@@ -219,6 +219,7 @@ The ARIMA model achieved low training errors (e.g., RMSE = 0.0681) but had a hig
 
 ```{r}
 library(randomForest)
+library(caret)
 
 
 # Ensure data is prepared
