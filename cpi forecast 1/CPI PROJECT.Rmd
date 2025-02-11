@@ -12,7 +12,7 @@ library(dplyr)
 
 ```{r}
 # Read CSV file and treat "." as missing values
-data <- read.csv("C:\\Users\\ENVY\\Desktop\\cpi project data set\\data.csv", na.strings = ".")
+data <- read.csv("C:\\Users\\ENVY\\Desktop\\cpi project data set\\data1.csv", na.strings = ".")
 
 # Check the first few rows
 head(data, 200)
